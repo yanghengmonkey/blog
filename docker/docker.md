@@ -9,4 +9,16 @@ sudo service docker restart
 # Switch current context
 newgrp - docker
 ## Stop docker
-docker stop <NAME>
+docker stop <container>
+
+### Docker inspect
+
+docker inspect <container>
+
+### Update restart policy
+
+docker update --restart=<restart_policy> <container>
+
+### Enter running docker image
+
+docker exec -ti <CONTAINER> bash
