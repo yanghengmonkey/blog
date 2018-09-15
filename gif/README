@@ -1,0 +1,5 @@
+apt-get install mplayer
+apt-get install imagemagick
+
+mplayer -ao null xxxx.mp4 -vo jpeg:outdir=output
+convert output/*.jpg -resize 45% output/view.gif
