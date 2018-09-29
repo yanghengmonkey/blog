@@ -22,7 +22,7 @@
     -->
     <version>0.0.1-SNAPSHOT</version>
     <!-- 打包的格式，可以为：pom , jar , maven-plugin , ejb , war , ear , rar , par -->
-    <packaging>war</packaging>
+    <packaging>rar</packaging>
     <!-- 元素声明了一个对用户更为友好的项目名称 -->
     <name>maven</name>
 </project>
