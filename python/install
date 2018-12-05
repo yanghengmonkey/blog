@@ -1,0 +1,3 @@
+pip3 install --global-option=build_ext --global-option="-L/usr/lib64"  --global-option="-I/tools/python/Python-3.4.3/include/python3.4m" --ignore-installed --install-option="--prefix=/tools/python/Python-3.4.3" numpy
+
+pip3 install --global-option=build_ext --global-option="-L/usr/lib64"  --global-option="-I/opt/rh/rh-python36/root/usr/include/python3.6m" --ignore-installed --install-option="--prefix=/usr/lib64/python3.6" numpy
