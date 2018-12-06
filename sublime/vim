@@ -1,0 +1,9 @@
+https://forum.sublimetext.com/t/actualvim-perfect-vim-input-for-sublime-text-3/26301
+
+1. Install neovim
+    sudo apt-get install neovim
+2. Install Actualvim and Configure
+    package control
+    Preferences -> Package Settings -> ActualVim Settings  
+        "neovim_path": "/usr/bin/nvim",
+3. Restart
