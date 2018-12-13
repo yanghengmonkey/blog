@@ -1,0 +1,19 @@
+## install latest openssl
+
+```
+README: https://github.com/openssl/openssl/blob/master/INSTALL
+git clone git://git.openssl.org/openssl.git
+...
+./config --prefix=<path>
+make
+make install
+```
+
+## DEBUG:
+* error while loading shared libraries: libssl.so.1.1: cannot open shared object file: No such file or directory
+
+```
+ln -s /usr/local/lib64/libssl.so.1.1 /usr/lib64/libssl.so.1.1
+ln -s /usr/local/lib64/libcrypto.so.1.1 /usr/lib64/libcrypto.so.1.1
+```
+
