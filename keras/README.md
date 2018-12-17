@@ -59,3 +59,22 @@
       ```
       keras.layers.Activation(activation)
       ```
+    + Flatten
+      ```
+      keras.layers.Flatten(data_format=None)
+      ```
+    + Input
+      ```
+      keras.engine.input_layer.Input()
+      ```
+    + Reshape
+      ```
+      keras.layers.Reshape(target_shape)
+      ```
+    + Permute
+      ```
+      keras.layers.Permute(dims)
+      ```
+
+
+
